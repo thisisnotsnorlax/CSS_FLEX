@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="clone.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <!-- 
+      NOTE: THE DESIGN OR TEMPLATE IS FROM https://supersimple.dev/exercises/youtube INCLUDING THE IMAGES,
+      BUT I DIDN'T COPY THE CODE. I CODE IT ON MY OWN WAY.
+     -->
+
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="header__hamburger-logo">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg"
+          class="header__logo"
+          width="100px"
+        />
+      </div>
+
+      <div class="hamburger__search">
+        <input
+          type="text"
+          placeholder="Search"
+          class="hamburger__search-input"
+        />
+        <button class="hamburger__search-btn hamburger__search-btn--primary">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="hamburger__search-btn hamburger__search-btn--secondary">
+          <i class="fa-solid fa-microphone"></i>
+        </button>
+      </div>
+
+      <div class="header__icons">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg"
+          width="25px"
+        />
+
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-apps.svg"
+          width="25px"
+        />
+
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg"
+          width="25px"
+        />
+
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/my-channel.jpeg"
+          width="32px"
+        />
+      </div>
+    </header>
+
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar">
+      <div class="navbar__bars">
+        <i class="fa-solid fa-bars" class="header__hambuger"></i>
+      </div>
+
+      <ul class="navbar__ul">
+        <li class="navbar__list">
+          <a href="">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg"
+              width="20px"
+            />
+            Home
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg"
+              width="20px"
+            />
+            Explore
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg"
+              width="20px"
+            />
+            Subscriptions
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg"
+              width="20px"
+            />
+            Originals
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg"
+              width="20px"
+            />
+            Music
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg"
+              width="20px"
+            />
+            Library
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- MAIN SECTION -->
+    <main class="main">
+      <div class="main__thumbnail">
+        <div class="main__thumbnail-image">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp"
+            class="main__thumbnail-img"
+          />
+        </div>
+        <div class="main__thumbnail-info">
+          <div class="main__thumbail-icon">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg"
+              class="main__thumbnail-uploader"
+            />
+          </div>
+          <div class="main__thumbail-text">
+            <p class="main__thumbnail-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="main__text--primary main__thumbnail-uploader">
+              Marques Brownlee
+            </p>
+            <p class="main__text--primary main__thumbnail-status">
+              <span>3.4M views &middot; 6 months </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main__thumbnail">
+        <div class="main__thumbnail-image">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp"
+            class="main__thumbnail-img"
+          />
+        </div>
+        <div class="main__thumbnail-info">
+          <div class="main__thumbail-icon">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg"
+              class="main__thumbnail-uploader"
+            />
+          </div>
+          <div class="main__thumbail-text">
+            <p class="main__thumbnail-title">Try Not To Laugh Challenge #9</p>
+            <p class="main__text--primary main__thumbnail-uploader">
+              Markiplier
+            </p>
+            <p class="main__text--primary main__thumbnail-status">
+              <span>19M views &middot; 4 years ago </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__thumbnail">
+        <div class="main__thumbnail-image">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp"
+            class="main__thumbnail-img"
+          />
+        </div>
+        <div class="main__thumbnail-info">
+          <div class="main__thumbail-icon">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg"
+              class="main__thumbnail-uploader"
+            />
+          </div>
+          <div class="main__thumbail-text">
+            <p class="main__thumbnail-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="main__text--primary main__thumbnail-uploader">
+              SSSniperWolf
+            </p>
+            <p class="main__text--primary main__thumbnail-status">
+              <span>12M views &middot; 1 year ago </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__thumbnail">
+        <div class="main__thumbnail-image">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-4.webp"
+            class="main__thumbnail-img"
+          />
+        </div>
+        <div class="main__thumbnail-info">
+          <div class="main__thumbail-icon">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-4.jpeg"
+              class="main__thumbnail-uploader"
+            />
+          </div>
+          <div class="main__thumbail-text">
+            <p class="main__thumbnail-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="main__text--primary main__thumbnail-uploader">
+              Veritasium
+            </p>
+            <p class="main__text--primary main__thumbnail-status">
+              <span>18M views &middot; 4 months ago </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__thumbnail">
+        <div class="main__thumbnail-image">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-5.webp"
+            class="main__thumbnail-img"
+          />
+        </div>
+        <div class="main__thumbnail-info">
+          <div class="main__thumbail-icon">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-5.jpeg"
+              class="main__thumbnail-uploader"
+            />
+          </div>
+          <div class="main__thumbail-text">
+            <p class="main__thumbnail-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="main__text--primary main__thumbnail-uploader">CS Dojo</p>
+            <p class="main__text--primary main__thumbnail-status">
+              <span>519K views &middot; 5 years ago </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__thumbnail">
+        <div class="main__thumbnail-image">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-6.webp"
+            class="main__thumbnail-img"
+          />
+        </div>
+        <div class="main__thumbnail-info">
+          <div class="main__thumbail-icon">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-6.jpeg"
+              class="main__thumbnail-uploader"
+            />
+          </div>
+          <div class="main__thumbail-text">
+            <p class="main__thumbnail-title">
+              Anything You Can Fit In The Circle I'll Pay For
+            </p>
+            <p class="main__text--primary main__thumbnail-uploader">MrBeast</p>
+            <p class="main__text--primary main__thumbnail-status">
+              <span>141M views &middot; 1 year ago </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__thumbnail">
+        <div class="main__thumbnail-image">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-7.webp"
+            class="main__thumbnail-img"
+          />
+        </div>
+        <div class="main__thumbnail-info">
+          <div class="main__thumbail-icon">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-7.jpeg"
+              class="main__thumbnail-uploader"
+            />
+          </div>
+          <div class="main__thumbail-text">
+            <p class="main__thumbnail-title">Why Planes Don't Fly Over Tibet</p>
+            <p class="main__text--primary main__thumbnail-uploader">
+              RealLifeLore
+            </p>
+            <p class="main__text--primary main__thumbnail-status">
+              <span>6.6M views &middot; 1 year ago </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__thumbnail">
+        <div class="main__thumbnail-image">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-8.webp"
+            class="main__thumbnail-img"
+          />
+        </div>
+        <div class="main__thumbnail-info">
+          <div class="main__thumbail-icon">
+            <img
+              src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-8.jpeg"
+              class="main__thumbnail-uploader"
+            />
+          </div>
+          <div class="main__thumbail-text">
+            <p class="main__thumbnail-title">
+              Inside The World's Biggest Passenger Plane
+            </p>
+            <p class="main__text--primary main__thumbnail-uploader">
+              Tech Vision
+            </p>
+            <p class="main__text--primary main__thumbnail-status">
+              <span>3.7M views &middot; 10 months </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
